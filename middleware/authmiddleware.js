@@ -25,7 +25,7 @@ const authmiddleware = {
           email: decodedtoken.email,
         };
 
-        console.log(req.user);
+       
         next();
       });
     } catch (error) {
